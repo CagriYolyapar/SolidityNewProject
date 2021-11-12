@@ -6,17 +6,25 @@ async function run() {
   const files = [{
     path: '/',
     content: JSON.stringify({
-      name: "Dalek",
+      name: "DeathTrooper",
       attributes: [
         {
-          "trait_type": "Extermination",
-          "value": "Extremely High"
+          "trait_type": "Faction",
+          "value": "Empire"
+        },
+        {
+          "trait_type":"Armor",
+          "value":"Plastoid"
+        },
+        {
+          "trait_type":"Weapon",
+          "value":"D-17 Blaster Rifle"
         }
       ],
       // if you want to upload your own IPFS image, you can do so here:
       // https://github.com/ChainShot/IPFS-Upload
-      image: "https://gateway.ipfs.io/ipfs/Qmd3n8SVGhs1WRYg7mYnddyZmMhhdks6ag5PQGp1xLUE3g",
-      description: "Exterminates all the Humans!"
+      image: "https://gateway.pinata.cloud/ipfs/Qmcvr69Lp2RzzzxH385jTAigf3j6pD8x6KcxPSEeXNbnr9",
+      description: "Destroy the Rebels!"
     })
   }];
 
